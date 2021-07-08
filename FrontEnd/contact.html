@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>BS Demo</title>
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./commercial.html">Commercial</a></li>
+                <li class="nav-item"><a class="nav-link" href="./domestic.html">Domestic</a></li>
+                <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <header class="jumbotron">
+            <div class="row row-header d-flex">
+                <div class="col-sm-12 col-lg-8">
+                    <img src="img/logo1.PNG" class="d-block img-fluid" alt="AandD">
+                </div>
+                <div class="col-sm-12 col-lg-4 d-flex justify-content-md-end contact align-self-center ">
+                    <h5>Call us on: 01270 794067</h5>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-sm-12 col-md-5">
+            <h3>Contact Information:</h3>
+            <br/>
+            <p>
+                For further information or to arrange a quote please call us using the below telephone numbers,
+                or alternatively use the quick-contact form and we will get back to you soon.
+            </p><br/>
+
+
+            <p><strong>A & D Commercial Interiors Ltd</strong><br/>
+            Unit 4C, Wistaston Road Business Park, Crewe, Cheshire, CW2 7RP.<br/>
+                Tel: (01270) 749067<br/>
+                Tel: David Evans: 07779 576 590<br/>
+                Tel: Antony Fricker: 07843427906<br/>
+                Email: dave@adcommercial-interiors.co.uk OR tony@adcommercial-interiors.co.uk
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-3 d-none d-md-block mt-5">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="500" height="450" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=CW2%207RP&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"></iframe>
+                    <a href="https://123movies-to.org"></a><br>
+                    <style>.mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                    }</style>
+                    <style>.gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 600px;
+                    }</style>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-12 col-md-6">
+        <h3>Quick Contact:</h3>
+    </div>
+
+    <form class="" action="contact.php" method="post">
+<!--        <input type="text" name="name" placeholder="Full Name">
+        <input type="text" name="mail" placeholder="Your Email">
+        <input type="text" name="contact" placeholder="Contact Tel.">
+        <textarea name="message" placeholder="message"></textarea>
+        <button type="submit" name="submit">Submit</button>-->
+
+        <div class="row row-content">
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="name" class="col-md-2 col-form-label">Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="contact" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-md-10">
+                            <input type="tel" class="form-control" id="contact" name="contact" placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="mail" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="mail" name="mail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="message" class="col-md-2 col-form-label">Comments</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="message" name="message" rows="12" placeholder="Your message..."></textarea>      <!--//////////////////////text area with 12 rows high-->
+                        </div>
+                    </div>
+                    <div class="form-group-row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md">
+            </div>
+        </div>
+    </form>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./commercial.html">Commercial</a></li>
+                    <li><a href="#">Domestic</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Our Address</h5>
+                <address>
+                    A & D Commercial Interiors Ltd,<br/>
+                    Unit 4C, Wistaston Road Business Park,<br/> Crewe, Cheshire,<br/>
+                    CW2 7RP.<br/>
+                    <i class="fa fa-phone fa-lg"></i> Tel.: (01270) 794067<br>
+                    <i class="fa fa-phone fa-lg"></i> Tel. David Evans: 07779 576 590<br>
+                    <i class="fa fa-phone fa-lg"></i> Tel. Anthony Fricker: 07843 427 906<br>
+
+                    <i class="fa fa-envelope fa-lg"></i>Email: <a
+                        href="mailto:dave@adcommercial-interiors.co.uk">dave@adcommercial-interiors.co.uk</a><br/> OR
+                    <a
+                            href="mailto:tony@adcommercial-interiors.co.uk">tony@adcommercial-interiors.co.uk</a>
+                </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-facebook"
+                       href="http://www.facebook.com/ADCommercialInteriorsLtd"><i
+                            class="fa fa-facebook fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-instagram"
+                       href="https://www.instagram.com/adcommercial_interiors/"><i
+                            class="fa fa-instagram fa-lg"></i></a>
+                    <!--                        <a href="mailto:dave@adcommercial-interiors.co.uk"><i class="fa fa-envelope fa-lg"></i>Mail</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Copyright © 2013 A&D Commercial Interiors Ltd. Registered in England. Company Reg 06611776.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="container">
+    <div class="d-flex justify-content-center mt-3 col-8">
+        <img src="img/certificates.JPG" class="mb-4" alt="Certificates">
+        <!--    <img src="img/ipaf_logo.jpg" class="d-block img-fluid mb-4" alt="ipaf">
+            <img src="img/cscs_logo.jpg" class="d-block img-fluid mb-4" alt="cscs">
+            <img src="img/spa_logo.jpg" class="d-block img-fluid mb-4" alt="spa">-->
+    </div>
+
+    <div class="row justify-content-center col-8">
+        <div class="col-auto">
+            <p class="signature">Site Design Copyright © Matt Tyldesley</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
